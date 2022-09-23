@@ -25,7 +25,7 @@ export const Avatar = ({
 
   return (
     <div
-      className={`overflow-auto ${avatarSize} ${avatarType} ${color} ${className}`}>
+      className={`overflow-auto flex justify-center items-center ${avatarSize} ${avatarType} ${color} ${className}`}>
       {children}
     </div>
   );
