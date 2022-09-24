@@ -6,7 +6,7 @@ export const Avatar = ({
   children,
   size = 'small',
   type = 'circle',
-  color = 'bg-primary',
+  color = 'transparent',
 }) => {
   const sizes = {
     small: 'w-6 h-6',
@@ -24,8 +24,7 @@ export const Avatar = ({
   const avatarType = useMemo(() => types[type], [type]);
 
   return (
-    <div
-      className={`overflow-auto flex justify-center items-center ${avatarSize} ${avatarType} ${color} ${className}`}>
+    <div className={`avatar ${avatarSize} ${avatarType} ${color} ${className}`}>
       {children}
     </div>
   );
