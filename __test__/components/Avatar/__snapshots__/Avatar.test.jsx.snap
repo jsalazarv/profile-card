@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Snapshot] Should match snapshot 1`] = `
+<div>
+  <div
+    class="avatar w-32 h-32 rounded-full transparent "
+  />
+</div>
+`;
