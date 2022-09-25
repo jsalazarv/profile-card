@@ -1,9 +1,60 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`[Snapshot] Should match snapshot 1`] = `
+exports[`[Avatar Component] [Snapshot] Properties configured on the component should only be available options 1`] = `
+<div>
+  <div
+    class="avatar w-32 h-32 rounded-full transparent "
+  >
+    <img
+      alt=""
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGMsJNRv8en8a8mnoT_W9D7CjqV55SAPTurg&usqp=CAU"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Avatar Component] [Snapshot] Should match snapshot 1`] = `
 <div>
   <div
     class="avatar w-32 h-32 rounded-full transparent "
   />
+</div>
+`;
+
+exports[`[Avatar Component] [Snapshot] Should process child properties (img) correctly 1`] = `
+<div>
+  <div
+    class="avatar w-32 h-32 rounded-full transparent "
+  >
+    <img
+      alt=""
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGMsJNRv8en8a8mnoT_W9D7CjqV55SAPTurg&usqp=CAU"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Avatar Component] [Snapshot] Should process child properties (size, type) correctly 1`] = `
+<div>
+  <div
+    class="avatar w-6 h-6 rounded-lg transparent "
+  >
+    <img
+      alt=""
+      src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGMsJNRv8en8a8mnoT_W9D7CjqV55SAPTurg&usqp=CAU"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Avatar Component] [Snapshot] Should process child properties (text) correctly 1`] = `
+<div>
+  <div
+    class="avatar w-32 h-32 rounded-full transparent "
+  >
+    <span>
+      JS
+    </span>
+  </div>
 </div>
 `;
