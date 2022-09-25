@@ -7,7 +7,7 @@ describe('[Card Component]', () => {
       const { container } = render(<Card />);
 
       expect(container.firstChild).toHaveClass('card');
-      expect(container.firstChild).toHaveClass('rounded-lg');
+      expect(container.firstChild).toHaveClass('rounded-none');
       expect(container).toMatchSnapshot();
     });
 
