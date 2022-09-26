@@ -1,0 +1,9 @@
+.card {
+    @apply overflow-auto;
+    @apply flex;
+    @apply flex-col;
+}
+
+.card .card-header {
+    @apply w-full;
+}

@@ -1,0 +1,18 @@
+.profile-card {
+    @apply flex;
+    @apply justify-center;
+    @apply items-center;
+    @apply w-96;
+    @apply p-4;
+    @apply bg-gray-400;
+}
+
+.profile-card__avatar {
+    @apply border-4;
+    @apply border-r-amber-500;
+    @apply border-l-amber-500;
+}
+
+.profile-card__content {
+    @apply mt-4;
+}

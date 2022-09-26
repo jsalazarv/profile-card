@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Avatar Component] [Snapshot] It should contain the class [rounded-full] if the configured prop is [circle] 1`] = `
+<div>
+  <div
+    class="avatar w-6 h-6 rounded-full transparent "
+  />
+</div>
+`;
+
+exports[`[Avatar Component] [Snapshot] It should contain the class [rounded-lg] if the configured prop is [rounded] 1`] = `
+<div>
+  <div
+    class="avatar w-6 h-6 rounded-lg transparent "
+  />
+</div>
+`;
+
+exports[`[Avatar Component] [Snapshot] It should contain the class [rounded-none] if the configured prop is [tile] 1`] = `
+<div>
+  <div
+    class="avatar w-6 h-6 rounded-none transparent "
+  />
+</div>
+`;
+
+exports[`[Avatar Component] [Snapshot] It should represent the default values 1`] = `
+<div>
+  <div
+    class="avatar w-6 h-6 rounded-full transparent "
+  />
+</div>
+`;

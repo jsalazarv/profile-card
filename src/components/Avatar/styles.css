@@ -1,0 +1,6 @@
+.avatar {
+    @apply flex;
+    @apply items-center;
+    @apply justify-center;
+    @apply overflow-auto;
+}
