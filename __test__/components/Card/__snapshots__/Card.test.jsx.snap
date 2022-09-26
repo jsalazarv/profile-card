@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Card Component] [Snapshots] It should contain the class [border-solid border] if the configured prop is [outlined] 1`] = `
+<div>
+  <div
+    class="card rounded-none border-solid border "
+  />
+</div>
+`;
+
+exports[`[Card Component] [Snapshots] It should contain the class [rounded-lg] if the configured prop is [rounded] 1`] = `
+<div>
+  <div
+    class="card rounded-lg  "
+  />
+</div>
+`;
+
+exports[`[Card Component] [Snapshots] It should contain the class [rounded-none] if the configured prop is [tile] 1`] = `
+<div>
+  <div
+    class="card rounded-none  "
+  />
+</div>
+`;
+
+exports[`[Card Component] [Snapshots] It should represent the default values 1`] = `
+<div>
+  <div
+    class="card rounded-none  "
+  />
+</div>
+`;
