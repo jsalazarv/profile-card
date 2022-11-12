@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[ThemeToggle Component] [Snapshots] It should contain the class [toggle] 1`] = `
+<div>
+  <input
+    aria-label="toggleTheme"
+    class="toggle "
+    type="checkbox"
+  />
+</div>
+`;
