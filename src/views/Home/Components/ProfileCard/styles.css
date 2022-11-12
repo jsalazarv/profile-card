@@ -6,6 +6,7 @@
     @apply p-4;
     @apply bg-white dark:bg-gray-400;
     @apply border border-blue-100 dark:border-amber-500;
+    @apply transition-colors duration-1000;
     @apply shadow-2xl;
 }
 
@@ -13,6 +14,7 @@
     @apply border-4;
     @apply border-r-black dark:border-r-amber-500;
     @apply border-l-black dark:border-l-amber-500;
+    @apply transition-colors duration-1000;
 }
 
 .profile-card__content {
@@ -23,10 +25,12 @@
     @apply text-lg;
     @apply font-bold;
     @apply text-black dark:text-amber-500;
+    @apply transition-colors duration-1000;
 }
 
 .profile-card__content h3 {
     @apply text-base;
     @apply text-center;
     @apply text-black dark:text-white;
+    @apply transition-colors duration-1000;
 }
