@@ -1,0 +1,36 @@
+.header {
+    @apply fixed;
+    @apply w-full;
+}
+
+.header__navbar {
+    @apply mx-auto;
+    @apply px-4 sm:px-6 lg:px-8;
+}
+
+.navbar__content {
+    @apply w-full;
+    @apply py-3;
+    @apply flex;
+    @apply items-center;
+    @apply justify-between;
+}
+
+.logo__container {
+    @apply flex;
+    @apply items-center;
+}
+
+.logo__container a h2 {
+    @apply text-xl;
+    @apply text-black dark:text-amber-500;
+    @apply font-bold dark:font-medium;
+}
+
+.items__container {
+    @apply ml-10;
+    @apply space-x-4;
+    @apply flex;
+    @apply justify-center;
+    @apply items-center;
+}
