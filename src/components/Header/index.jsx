@@ -1,18 +1,25 @@
+import './styles.css';
 import { ThemeToggle } from '../ThemeToggle/index.jsx';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 export const Header = ({}) => {
   return (
-    <header className="fixed w-full">
-      <nav className="mx-auto px-4 sm:px-6 lg:px-8" aria-label="Top">
-        <div className="w-full py-3 flex items-center justify-between">
-          <div className="flex items-center">
+    <header className="header">
+      <nav className="header__navbar" aria-label="Top">
+        <div className="navbar__content">
+          <div className="logo__container">
             <a href="https://jsalazarv.dev/" target="_blank">
-              <h2 className="text-xl text-black dark:text-amber-500 font-medium">
-                [Js]
-              </h2>
+              <h2>[Js]</h2>
             </a>
           </div>
-          <div className="ml-10 space-x-4">
+          <div className="items__container">
+            <a href="https://github.com/jsalazarv/profile-card" target="_blank">
+              <FontAwesomeIcon
+                className="text-2xl border-black dark:text-amber-500 dark:text-3xl"
+                icon={faGithub}
+              />
+            </a>
             <ThemeToggle />
           </div>
         </div>
