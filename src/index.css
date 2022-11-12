@@ -2,10 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'BeyondTheMountains';
+  src: local('BeyondTheMountains'), url(./assets/fonts/beyond_the_mountains/beyond_the_mountains.otf) format('woff');
+}
+
 body {
   margin: 0;
   place-items: center;
   @apply bg-gray-50 dark:bg-black;
+  @apply transition-colors duration-1000;
 }
 
 h1 {
