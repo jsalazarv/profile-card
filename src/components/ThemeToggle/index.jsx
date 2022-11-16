@@ -1,12 +1,8 @@
 import './styles.css';
-import useDarkMode from '../../hooks/useDarkMode.js';
+import useTheme from '../../hooks/useTheme.js';
 
 export const ThemeToggle = ({ className = '' }) => {
-  const [colorTheme, setTheme] = useDarkMode();
-
-  const toggleTheme = () => {
-    setTheme(colorTheme);
-  };
+  const { toggleTheme, isLight } = useTheme();
 
   return (
     <input
@@ -14,6 +10,7 @@ export const ThemeToggle = ({ className = '' }) => {
       type="checkbox"
       onClick={toggleTheme}
       aria-label="toggleTheme"
+      defaultChecked={isLight}
     />
   );
 };
