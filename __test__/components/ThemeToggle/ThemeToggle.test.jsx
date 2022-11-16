@@ -4,6 +4,9 @@ import { ThemeToggle } from '../../../src/components/ThemeToggle';
 const root = window.document.documentElement;
 
 describe('[ThemeToggle Component]', () => {
+  afterEach(() => {
+    jest.resetAllMocks();
+  });
   describe('[Snapshots]', () => {
     test('It should contain the class [toggle]', () => {
       const { container } = render(<ThemeToggle />);
@@ -27,6 +30,7 @@ describe('[ThemeToggle Component]', () => {
       render(<ThemeToggle />);
 
       fireEvent.click(screen.getByRole('checkbox', { name: 'toggleTheme' }));
+      expect(root).toHaveClass('light');
       fireEvent.click(screen.getByRole('checkbox', { name: 'toggleTheme' }));
       expect(root).toHaveClass('dark');
     });
