@@ -11,7 +11,7 @@ body {
   margin: 0;
   place-items: center;
   @apply bg-gray-50 dark:bg-black;
-  @apply transition-colors duration-1000;
+  @apply transition-all duration-1000;
 }
 
 h1 {

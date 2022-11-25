@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[ProfileCard Component] Should content [profile-card] class 1`] = `
+<div>
+  <div
+    class="card rounded-lg  profile-card"
+  >
+    <div
+      class="profile-card__content"
+    >
+      <h1>
+        The Notorious B.I.G.
+      </h1>
+      <h3>
+        United States
+      </h3>
+    </div>
+    <div
+      class="profile-card__footer"
+    />
+  </div>
+</div>
+`;
