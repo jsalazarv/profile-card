@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Home view] [Snapshots] Should content [home-container] class 1`] = `
+<div>
+  <div
+    class="home-container"
+  />
+</div>
+`;

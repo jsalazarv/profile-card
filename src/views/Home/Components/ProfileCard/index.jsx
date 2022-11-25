@@ -7,7 +7,7 @@ export const ProfileCard = () => {
     <Card className="profile-card" type="rounded">
       <Avatar className="profile-card__avatar" type="circle" size="large">
         <img
-          className="grayscale dark:grayscale-0"
+          className="grayscale dark:grayscale-0 transition-all duration-1000"
           src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGMsJNRv8en8a8mnoT_W9D7CjqV55SAPTurg&usqp=CAU"
           alt=""
         />

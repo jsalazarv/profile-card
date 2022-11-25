@@ -33,7 +33,7 @@ exports[`[Header Component] [Snapshots] Should have the [Js] text 1`] = `
           >
             <svg
               aria-hidden="true"
-              class="svg-inline--fa fa-github text-2xl border-black dark:text-amber-500 dark:text-3xl"
+              class="svg-inline--fa fa-github text-2xl border-black dark:text-amber-500 dark:text-3xl transition-all duration-1000"
               data-icon="github"
               data-prefix="fab"
               focusable="false"
@@ -92,7 +92,7 @@ exports[`[Header Component] [Snapshots] Should have the header class 1`] = `
           >
             <svg
               aria-hidden="true"
-              class="svg-inline--fa fa-github text-2xl border-black dark:text-amber-500 dark:text-3xl"
+              class="svg-inline--fa fa-github text-2xl border-black dark:text-amber-500 dark:text-3xl transition-all duration-1000"
               data-icon="github"
               data-prefix="fab"
               focusable="false"
