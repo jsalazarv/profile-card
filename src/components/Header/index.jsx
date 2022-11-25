@@ -16,7 +16,7 @@ export const Header = ({}) => {
           <div className="items__container">
             <a href="https://github.com/jsalazarv/profile-card" target="_blank">
               <FontAwesomeIcon
-                className="text-2xl border-black dark:text-amber-500 dark:text-3xl"
+                className="text-2xl border-black dark:text-amber-500 dark:text-3xl transition-all duration-1000"
                 icon={faGithub}
               />
             </a>
